@@ -1,5 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://oq3svgtrsty8"]
+[gd_scene load_steps=5 format=3 uid="uid://oq3svgtrsty8"]
 
+[ext_resource type="Script" uid="uid://b8ai4ymcg5ll6" path="res://Scripts/billboard.gd" id="1_br66b"]
 [ext_resource type="Texture2D" uid="uid://yxjuro1gk4i6" path="res://Assets/my_portrait.png" id="1_dwpb4"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_br66b"]
@@ -10,6 +11,7 @@ size = Vector3(20, 10, 1)
 
 [node name="billboard" type="Node3D"]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+script = ExtResource("1_br66b")
 
 [node name="board" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)

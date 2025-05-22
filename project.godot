@@ -14,3 +14,10 @@ config/name="calcus_simulator"
 run/main_scene="uid://3wat43rkf3qj"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[input]
+
+up={
+"deadzone": 0.2,
+"events": []
+}
