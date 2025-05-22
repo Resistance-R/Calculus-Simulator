@@ -5,7 +5,7 @@ extends Node3D
 @onready var BOARD = $board;
 
 func _process(delta: float) -> void:
-	var move_speed := 15.0 * delta
+	var move_speed := 1.0 * delta
 
 	if Input.is_action_pressed("ui_up"):
 		BILLBOARD.position.y += move_speed
