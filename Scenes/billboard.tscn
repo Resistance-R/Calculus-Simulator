@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://b8ai4ymcg5ll6" path="res://Scripts/billboard.gd" id="1_br66b"]
 [ext_resource type="Texture2D" uid="uid://yxjuro1gk4i6" path="res://Assets/my_portrait.png" id="1_dwpb4"]
 [ext_resource type="Script" uid="uid://iy3p10iqucsc" path="res://Scripts/board.gd" id="2_q1ro4"]
-[ext_resource type="FontFile" uid="uid://iscvlwnfrrc4" path="res://Assets/Pretendard-Medium.otf" id="4_f7b7n"]
+[ext_resource type="FontFile" uid="uid://cclejvrt84uni" path="res://Assets/Pretendard-Medium.ttf" id="4_f7b7n"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_br66b"]
 

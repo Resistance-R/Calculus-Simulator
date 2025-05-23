@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://iscvlwnfrrc4"
-path="res://.godot/imported/Pretendard-Medium.otf-e2a42913cbe688ed2fe17a164f296a82.fontdata"
+uid="uid://cclejvrt84uni"
+path="res://.godot/imported/Pretendard-Medium.ttf-ce4ac2f2dec5421f703ed767edbe3d22.fontdata"
 
 [deps]
 
-source_file="res://Assets/Pretendard-Medium.otf"
-dest_files=["res://.godot/imported/Pretendard-Medium.otf-e2a42913cbe688ed2fe17a164f296a82.fontdata"]
+source_file="res://Assets/Pretendard-Medium.ttf"
+dest_files=["res://.godot/imported/Pretendard-Medium.ttf-ce4ac2f2dec5421f703ed767edbe3d22.fontdata"]
 
 [params]
 
