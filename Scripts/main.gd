@@ -51,4 +51,4 @@ func theta(h, a=A, b=B) -> float:
 	"""
 	시야각 구하는 함수
 	"""
-	return 2.0 * atan((a / 2.0) / (h - B));
+	return 2.0 * atan((a / 2.0) / (h - b));
