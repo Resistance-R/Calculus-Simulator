@@ -20,6 +20,7 @@ ___
 \]
 ```
 `main.gd` 스크립트의 `theta()`라는 함수로 작성되어 있습니다.
+
 해당 코드:
 ```gdscript
 func theta(h, a=A, b=B) -> float:
