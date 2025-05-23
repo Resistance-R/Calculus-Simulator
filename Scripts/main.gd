@@ -1,5 +1,8 @@
 extends Node3D
 
+# 최대 시야각 검사를 위한 전역변수 선언
+@export var is_max_fov = false; # false로 초기화
+
 # 물체 정의
 @onready var BILLBOARD = $billboard;
 @onready var BOARD = $billboard/board;
@@ -38,8 +41,10 @@ func _process(delta: float) -> void:
 		pass
 	
 	if abs(fov - max_fov) <= FOV_TOLERANCE: # 시야각이 충분히 최댓값과 가까운가
+		is_max_fov = true;
 		THETA_LABEL.modulate = Color.WHITE;
 	else:
+		is_max_fov = false;
 		THETA_LABEL.modulate = Color.RED;
 		
 func theta(h, a=A, b=B) -> float:
