@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://oq3svgtrsty8"]
+[gd_scene load_steps=7 format=3 uid="uid://oq3svgtrsty8"]
 
 [ext_resource type="Script" uid="uid://b8ai4ymcg5ll6" path="res://Scripts/billboard.gd" id="1_br66b"]
 [ext_resource type="Texture2D" uid="uid://yxjuro1gk4i6" path="res://Assets/my_portrait.png" id="1_dwpb4"]
 [ext_resource type="Script" uid="uid://iy3p10iqucsc" path="res://Scripts/board.gd" id="2_q1ro4"]
+[ext_resource type="FontFile" uid="uid://iscvlwnfrrc4" path="res://Assets/Pretendard-Medium.otf" id="4_f7b7n"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_br66b"]
 
@@ -27,10 +28,12 @@ texture = ExtResource("1_dwpb4")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.86394, 3.47309, 0.6)
 pixel_size = 0.04
 text = "simulator by"
+font = ExtResource("4_f7b7n")
 
 [node name="name" type="Label3D" parent="board"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.01033, -0.521905, 0.6)
 pixel_size = 0.06
 text = "2025245045
 명윤재 "
+font = ExtResource("4_f7b7n")
 horizontal_alignment = 0
